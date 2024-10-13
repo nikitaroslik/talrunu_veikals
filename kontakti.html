@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakti - Tālruņu Veikals</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Tālruņu Veikals</h1>
+            <nav>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul>
+                    <li><a href="index.html">Sākumlapa</a></li>
+                    <li><a href="par_mums.html">Par Mums</a></li>
+                    <li><a href="kontakti.html" class="active">Kontakti</a></li>
+                </ul>
+            </nav>
+            <div class="clearfix"></div>
+        </div>
+    </header>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Sazinieties ar Mums</h2>
+            <form id="contact-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Vārds</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-pasts</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Ziņa</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Nosūtīt</button>
+            </form>
+            <div class="contact-info">
+                <p><strong>Adrese:</strong> Priekšlikuma iela, 123, Rīga</p>
+                <p><strong>Telefons:</strong> +371 123 45678</p>
+                <p><strong>E-pasts:</strong> info@talrunuveikals.lv</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tālruņu Veikals. Visas tiesības aizsargātas.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
